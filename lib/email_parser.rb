@@ -10,6 +10,6 @@ def initialize(emails)
 end
 
 def parse
-@emails.delete(',').split.uniq
+@emails.split.uniq
 end
 end
